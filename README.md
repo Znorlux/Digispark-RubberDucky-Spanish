@@ -8,8 +8,9 @@ Este repo te permite configurar un **Digispark ATtiny85** como un **Rubber Ducky
 2️⃣ Ir a **Archivo** > **Preferencias**  
 3️⃣ En **Gestor de URLs Adicionales de Tarjetas**, agregar esta URL: 
 
+```bash
 https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
-
+```
 4️⃣ Ir a **Herramientas** > **Placa** > **Gestor de Tarjetas**  
 5️⃣ Buscar **Digistump AVR Boards** e instalarlo  
 6️⃣ Seleccionar la placa:  
