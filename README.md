@@ -28,8 +28,18 @@ Para que el Digispark funcione correctamente con teclados en español, debes des
 git clone https://github.com/Dasor/digispark-keyboard-layout-Spanish
 ```
 2️⃣ Copiar los archivos `DigiKeyboard.h` y `scancode-ascii-table.h` dentro de tu carpeta de librerías de Arduino:  
-- **Windows**: `C:\Users\TU_USUARIO\Documents\Arduino\libraries\DigiKeyboard`  
-- **Linux/macOS**: `~/Arduino/libraries/DigiKeyboard`  
+### Windows (Arduino IDE 1.6.5 and previous):
+```
+c:\Users\(username)\AppData\Roaming\Arduino15\packages\digistump\hardware\avr\(version)\libraries\DigisparkKeyboard\
+```
+### Windows (Arduino IDE 1.6.6 and later):
+```
+c:\Users\(username)\AppData\Local\Arduino15\packages\digistump\hardware\avr\(version)\libraries\DigisparkKeyboard\
+```
+### Linux:
+```
+/home/(username)/.arduino15/packages/digistump/hardware/avr/(version)/libraries/DigisparkKeyboard/
+```
 
 ---
 
